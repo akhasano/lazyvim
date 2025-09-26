@@ -35,9 +35,9 @@ return {
       format_on_save = true,
       formatters_by_ft = {
         go = { "gofmt" },
-        rust = { "rustfmt" },
+        -- rust = { "rustfmt" },
         python = { "black" },
-        c = { "clang_format" },
+        -- c = { "clang_format" },
         lua = { "stylua" },
         bash = { "shfmt", "shellcheck" },
         zsh = { "shfmt", "shellcheck" },
@@ -63,7 +63,9 @@ return {
         "pyright",
         "terraformls",
         "html-lsp",
-        "css-ls[",
+        "css-lsp",
+        "shellcheck",
+        "shfmt",
       })
     end,
   },
