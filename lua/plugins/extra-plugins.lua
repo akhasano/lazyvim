@@ -102,4 +102,12 @@ return {
       })
     end,
   },
+
+  {
+    "nvim-treesitter",
+    opts = {
+      ensure_installed = { "terraform", "hcl" },
+      highlight = { enable = true },
+    },
+  },
 }
